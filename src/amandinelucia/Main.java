@@ -1,8 +1,14 @@
 package amandinelucia;
 
-public class Main {
+import amandinelucia.controller.Controller;
+import amandinelucia.view.Library;
 
-    public static void main(String[] args) {
-        System.out.println(generator.MediaGenerator.getMedia());
-    }
+public class Main {
+	
+	public static void main(String[] args){
+	
+		Library library = new Library();
+		Controller controller = new Controller(library);
+	}
+
 }
