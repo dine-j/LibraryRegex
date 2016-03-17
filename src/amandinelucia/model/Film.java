@@ -74,7 +74,7 @@ public class Film implements Comparable<Film>{
 	 * @return	String representation of the Film's object
      */
 	public String toString(){
-		return name + " " + year + " " + definition;
+		return name + " " + year + " " + definition + " " + pixel;
 	}
 
 	/**

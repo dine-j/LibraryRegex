@@ -1,8 +1,6 @@
 package amandinelucia.view;
 
-import java.awt.BorderLayout;
-import java.awt.FlowLayout;
-import java.awt.GridLayout;
+import java.awt.*;
 
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -155,8 +153,10 @@ public class Library extends JFrame {
 		
 		JPanel description = new JPanel();
 		description.setLayout(new GridLayout(2,1));
-		JLabel nameLabel = new JLabel(name);
+		JLabel nameLabel = new JLabel("<html><b>" + name + "</b></html>");
+		nameLabel.setFont(new Font("Comic Sans MS", Font.PLAIN, 12));
 		JLabel subNameLabel = new JLabel(subName);
+		subNameLabel.setFont(new Font("Comic Sans MS", Font.PLAIN, 12));
 		nameLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		subNameLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		description.add(nameLabel);

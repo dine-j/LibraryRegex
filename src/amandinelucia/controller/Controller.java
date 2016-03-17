@@ -177,7 +177,8 @@ public class Controller implements ActionListener {
 					
 				case "Quality":
 					Collections.sort(films, defOrder);
-					System.out.println(films);
+					//For debugging purposes:
+//					System.out.println(films);
 					updateFilmLibrary();
 					break;
 			}
