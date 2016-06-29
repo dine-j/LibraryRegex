@@ -10,7 +10,8 @@ heterogeneous naming schemes, yet the library itself is presented in a uniform m
 
 ## Code
 
-It's a Java program displaying in a uniform manner files in a library, i.e. Title - Year - Definition
+It's a Java program displaying in a uniform manner files in a library, i.e. Title - Year - Definition.
+
 We had a **constraint** as follow: **no methods from the String class (or any other class
 that facilitates string manipulation) should be used**, especially **replace**, **split** and **substring**.
 
